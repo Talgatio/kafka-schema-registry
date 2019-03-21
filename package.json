@@ -1,0 +1,27 @@
+{
+  "name": "kafka-schema-registry",
+  "version": "1.0.0",
+  "description": "module for create kafka-node connection",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "avro-schema",
+    "kafka-node"
+  ],
+  "author": "Talgat Nesipbaiev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Talgatio/kafka-schema-registry.git"
+  },
+  "dependencies": {
+    "avro-schema-registry": "^1.2.1",
+    "kafka-node": "^4.0.2"
+  }
+}
