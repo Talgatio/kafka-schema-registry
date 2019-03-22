@@ -33,6 +33,7 @@ const kafkaClient = new KafkaClient({
   schemaHost: 'http://localhost:8081',
   kafkaHost: 'localhost:9092'
 });
+
 kafkaClient.sendMessage(message, topic, name, key);
 ```
 
