@@ -19,7 +19,7 @@ class KafkaClient extends EventEmitter {
   initListen() {
     this.consumer.on('message', (msg) => {
       this.registry.decode(msg.value).then(val => {
-        val.id = +msg.key;
+        val.topicKey = +msg.key;
         this.emit('message', val);
       })
     });
