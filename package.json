@@ -1,6 +1,6 @@
 {
   "name": "kafka-schema-registry",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "module for create kafka-node connection",
   "main": "index.js",
   "directories": {
